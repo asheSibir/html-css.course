@@ -1,0 +1,91 @@
+.questions {
+    background-size: cover;
+    padding-bottom: 6rem
+}
+
+.questions h2 {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-family: 'MuseoSansCyrl_med', sans-serif;
+    font-size: 3.6rem
+}
+
+.questions .panel-group {
+    width: 77rem;
+    margin: 0 auto
+}
+
+.questions .panel-default {
+    border-radius: 10px;
+    margin-bottom: 1rem
+}
+
+.questions .panel-heading {
+    color: #fff;
+    background-color: #90c406;
+    height: 7rem;
+    padding: 2.5rem 2rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
+}
+
+.questions .panel-title {
+    font-family: 'MuseoSansCyrl_med', sans-serif;
+    font-size: 1.6rem
+}
+
+.questions .panel-body {
+    font-family: 'MuseoSansCyrl_reg', sans-serif;
+    font-size: 1.5rem
+}
+
+.panel-group {
+    width: 37rem;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.constructor .panel-group {
+    width: 28rem
+}
+
+.constructor .panel-group .panel-body .type-septic {
+    margin-left: 1.5rem
+}
+
+.constructor .panel-group .panel-body .onoffswitch {
+    margin-left: .5rem
+}
+
+.questions .panel-default {
+    border-radius: 10px;
+    margin-bottom: 1rem
+}
+
+.main-img {
+    display: inline-flexbox;
+}
+
+.remarks {
+    font-size: x-small;
+    background-color: grey;
+    font-weight: bold;
+}
+
+.blue-text{
+    color: indigo;
+    text-decoration: underline;
+}
+
+.comands {
+    color: lightseagreen;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.code {
+    color: antiquewhite;
+    background-color: dimgray;
+    display: block;
+}
