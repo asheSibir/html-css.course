@@ -1,0 +1,30 @@
+h2 {
+    text-align: center;
+}
+
+ul {
+    border: 1px solid salmon;
+    background-color: sandybrown;
+    color: slategrey;
+}
+li a {
+    color: slategrey;
+    text-decoration: none;
+    text-shadow: 1px 1px darkslategrey;
+}
+
+.text-through {
+    text-decoration: line-through;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold-text {
+    font-weight: bold;
+}
