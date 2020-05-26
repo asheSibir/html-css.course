@@ -6,7 +6,9 @@ const showBlock = () => {
             const target = ev.target;
             if (target.closest('.panel-default')){
                 const collapse = target.closest('.panel-default').children[1];
-                collapse.classList.toggle('in');
+                if (collapse){
+                    collapse.classList.toggle('in');
+                }
             }
         });
     } catch(e) {
