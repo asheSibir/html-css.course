@@ -100,7 +100,7 @@
                             </a>
                         </h4>
                     </div>
-                    <div id="collapseOne-two" class="panel-collapse collapse in" role="tabpanel"
+                    <div id="collapseOne-two" class="panel-collapse collapse" role="tabpanel"
                          aria-labelledby="headingOne">
                         <div class="panel-body">
                             <p>Создать папку src. В ней папка modules и index.js <br>
@@ -194,8 +194,7 @@
                         <h4 class="panel-title">
                             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#jscript"
                                href="#collapseTwo-two" aria-expanded="false" aria-controls="collapseTwo-two">
-                                Помогают ли предлагаемые вами устройства достичь в загородном доме комфорта городского
-                                уровня?
+                                Работа с сервером через AJAX (fetch)
                             </a>
                         </h4>
                     </div>
@@ -212,16 +211,28 @@
                         <h4 class="panel-title">
                             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#jscript"
                                href="#collapseThree-two" aria-expanded="false" aria-controls="collapseThree-two">
-                                Погибают ли бактерии в холодный период при долгом простое системы?
+                                Data-атрибуты
                             </a>
                         </h4>
                     </div>
                     <div id="collapseThree-two" class="panel-collapse collapse" role="tabpanel"
                          aria-labelledby="headingThree-two">
                         <div class="panel-body">
-                            Да. Иногда зимний монтаж предпочтительней. Большегрузная техника по мороженому грунту не
-                            продавит и не испортит дорогу или ландшафт участка, да и грунтовая вода отходит. Весной грунт
-                            даст усадку и уплотнится, и вам останется сделать лишь ландшафтное планирование.
+                            <p><strong>Методы работы с атрибутами:</strong><br>
+                                hasAttribute('nameAttr') - проверяет наличие атрибута<br>
+                                getAttribute('nameAttr') - возвращает значение атрибута<br>
+                                removeAttribute('nameAttr') - удаляет атрибут<br>
+                                setAttribute('nameAttr', 'value') - настраивает значение атрибута<br>
+                                Element.dataset - возвращает все data атрибуты элемента<br>
+                                Element.dataset('new-att') - добавляет новый data-атрибут<br>
+                            </p>
+                            <p>
+                                Навешиваем слушателя на событие, результатом которого должно быть появление data атрибута<br>
+                                В обработчике присваиваем атрубуту элемента значение data-атрибута<br>
+                                Например:<br>
+                                <span class="code small">event.target.src = event.target.dataset.img</span>
+
+                            </p>
                         </div>
                     </div>
                 </div>

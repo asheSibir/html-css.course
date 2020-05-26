@@ -2,13 +2,12 @@ const showBlock = () => {
     try {
         const jsBlock = document.getElementById('jscript');
         jsBlock.addEventListener('click', (ev) => {
-            const target = ev.target,
-            openedEl = jsBlock.querySelector('.collapse.in');
-            if (openedEl !== target.closest('.panel-default').children[1]){
-                openedEl.classList.remove('in');
-                target.closest('.panel-default').children[1].classList.add('in');
+            ev.preventDefault();
+            const target = ev.target;
+            if (target.closest('.panel-default')){
+                const collapse = target.closest('.panel-default').children[1];
+                collapse.classList.toggle('in');
             }
-
         });
     } catch(e) {
 
