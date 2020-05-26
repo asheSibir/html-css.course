@@ -1,5 +1,5 @@
 const path = require('path');
-module.exports = {
+    module.exports = {
     entry: {
         main: './src/index.js',
     },
@@ -14,9 +14,9 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.js$/,
-                loader: 'babel-loader',
-                exclude: '/node_modules/'
+            test: /\.js$/,
+            loader: 'babel-loader',
+            exclude: '/node_modules/'
             }
         ]
     }

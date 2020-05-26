@@ -7,9 +7,16 @@
     "dev": "webpack-dev-server --open --mode=development",
     "bui": "webpack --mode=production"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asheSibir/html-css.course.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asheSibir/html-css.course/issues"
+  },
+  "homepage": "https://github.com/asheSibir/html-css.course#readme",
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
