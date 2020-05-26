@@ -78,6 +78,11 @@
     text-decoration: underline;
 }
 
+.yellow-text {
+    color: gold;
+    font-size: medium;
+}
+
 .comands {
     color: lightseagreen;
     font-style: italic;

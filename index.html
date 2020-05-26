@@ -218,7 +218,7 @@
                     <div id="collapseThree-two" class="panel-collapse collapse" role="tabpanel"
                          aria-labelledby="headingThree-two">
                         <div class="panel-body">
-                            <p><strong>Методы работы с атрибутами:</strong><br>
+                            <p class="small"><strong>Методы работы с атрибутами:</strong><br>
                                 hasAttribute('nameAttr') - проверяет наличие атрибута<br>
                                 getAttribute('nameAttr') - возвращает значение атрибута<br>
                                 removeAttribute('nameAttr') - удаляет атрибут<br>
@@ -230,7 +230,7 @@
                                 Навешиваем слушателя на событие, результатом которого должно быть появление data атрибута<br>
                                 В обработчике присваиваем атрубуту элемента значение data-атрибута<br>
                                 Например:<br>
-                                <span class="code small">event.target.src = event.target.dataset.img</span>
+                                <span class="code small">event.target.src = event.target<span class="yellow-text">.dataset.</span>img</span>
 
                             </p>
                         </div>
