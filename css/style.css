@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 .questions {
     background-size: cover;
     padding-bottom: 6rem
@@ -64,7 +67,12 @@
 }
 
 .main-img {
-    display: inline-flexbox;
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+}
+.main-img img {
+    width: 100%;
 }
 
 .remarks {

@@ -15,36 +15,39 @@
     </div>
     <div class="main-img">
         <a href="#html-css">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR1EbNQ9HuI3AC7zhBIjNjnbYAHWc90n9WZp_Vgk4rX2-MZvaGZ&usqp=CAU" alt="html-css" width="30%">
+            <img class="main-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR1EbNQ9HuI3AC7zhBIjNjnbYAHWc90n9WZp_Vgk4rX2-MZvaGZ&usqp=CAU" alt="html-css">
         </a>
     </div>
     <div class="main-img">
         <a href="#jscript">
-            <img src="./img/js-main.jpg" alt="js" width="30%">
+            <img class="main-img" src="./img/js-main.jpg" alt="js">
         </a>
     </div>
 
-    <section class="questions">
+    <section class="questions" id="html-css">
         <div class="container">
             <h2>Верстка</h2>
-            <div class="panel-group wow slideInDown" id="html-css" role="tablist" aria-multiselectable="true">
+            <div class="panel-group wow slideInDown" role="tablist" aria-multiselectable="true">
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="headingOne-two">
                         <h4 class="panel-title">
                             <a role="button" data-toggle="collapse" data-parent="#html-css" href="#collapseOne-two"
                                aria-expanded="true" aria-controls="collapseOne-two">
-                                Существует ли вероятность того, что подводящий трубопровод замерзнет?
+                                Базовые атрибуты css
                             </a>
                         </h4>
                     </div>
                     <div id="collapseOne-two" class="panel-collapse collapse in" role="tabpanel"
                          aria-labelledby="headingOne">
                         <div class="panel-body">
-                            Вероятность того, что вода в подводящем трубопроводе замерзнет, отсутствует, потому что она
-                            находится в трубе лишь на протяжении небольшого промежутка времени, а все остальное время труба
-                            пуста. При прокладке трубопровода, предназначенного для хоз. бытового стока, необходимо при
-                            монтаже соблюдать правильный уклон трассы. Для трубы диаметром 110 мм перепад должен составлять
-                            20 мм на 1 метр, для трубы диаметром 160 мм перепад должен составлять 8 мм на 1 метр.
+                            <p>Если набрать <span class="blue-text">.className</span>, то получим div с классом</p>
+                            <p>Чтобы избавиться от промежутка между дивами inline-block, задаем margin-right: -4px;</p>
+                            <p>
+                                <strong>POSITION: </strong><br>
+                                - По умолчанию, static. Не работают глобальные отступы. <br>
+                                - Пара relative-absolute. У родителя должен быть первый вариант, тогда в дочернем элементе absolute будет ориентирован на родителя, а не на DOM. <br>
+                                - Absolute и fixed (для fixed должны быть обязательно заданы 2 точки, напр., left & top).
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -53,7 +56,7 @@
                         <h4 class="panel-title">
                             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#html-css"
                                href="#collapseTwo-two" aria-expanded="false" aria-controls="collapseTwo-two">
-                                Помогают ли предлагаемые вами устройства достичь в загородном доме комфорта городского
+                                Помогают ли предлагаемые вами устройства достичь в загородном доме комфорта гороского
                                 уровня?
                             </a>
                         </h4>
@@ -87,10 +90,10 @@
             </div>
         </div>
     </section>
-    <section class="questions">
+    <section class="questions" id="jscript">
         <div class="container">
             <h2>JavaScript</h2>
-            <div class="panel-group wow slideInDown" id="jscript" role="tablist" aria-multiselectable="true">
+            <div class="panel-group wow slideInDown" role="tablist" aria-multiselectable="true">
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="headingOne-two">
                         <h4 class="panel-title">
