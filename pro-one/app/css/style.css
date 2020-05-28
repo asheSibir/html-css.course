@@ -28,3 +28,9 @@ li a {
 .bold-text {
     font-weight: bold;
 }
+
+.width-test {
+    background-color: rgb(224, 120, 120);
+    height: 100px;
+    overflow: auto;
+}
