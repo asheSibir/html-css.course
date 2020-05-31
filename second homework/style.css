@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    font-family: Tahoma, sans-serif;
+    color: #333333;
+}
+
+.header {
+    text-align: center;
+    margin: 120px auto 83px auto;
+    font-size: 24px;
+    line-height: 1.5em;
+    color: #333333;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.first-section {
+    text-align: center;
+}
+
+.video, .form {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+}
+
+.video {
+
+    width: 546px;
+    height: 306px;
+    overflow: hidden;
+}
+
+.form {
+    width: 353px;
+    height: 308px;
+    border: 4px solid #2727D9;
+    font-size: 18px;
+    text-align: center;
+    color: #333333;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.form h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 32px auto 37px auto;
+}
+
+.form-data {
+    margin-bottom: 7px;
+    width: 299px;
+    height: 51px;
+    padding: 10px 0 18px 20px;
+    border: 1px solid #000000;
+}
+
+.blue-btn {
+    display: block;
+    border: none;
+    background-color: #2727D9;
+    width: 298px;
+    height: 66px;
+    margin: auto;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.advantages {
+    margin: 145px 192px 189px 192px;
+}
+
+.adv-images {
+    text-align: center;
+}
+
+.adv-img {
+    display: inline-block;
+    width: 122px;
+    height: 122px;
+    margin: 82px 48.5px 0 48.5px;
+}
+
+.advantages p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.advantages button {
+    margin-top: 94px;
+}
+
+.wrapper-clients {
+    margin: 71px 133px;
+    text-align: center;
+}
+
+.clinet-photo {
+    display: inline-block;
+    width: 215px;
+    height: 217px;
+    margin: 12.5px;
+}
+
+.clinet-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
