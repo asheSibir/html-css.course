@@ -1,0 +1,34 @@
+.my-container {
+    background-color: sandybrown;
+    width: 100%;
+    height: 500px;
+}
+
+.green {
+    background-color: springgreen;
+    height: 70px;
+}
+
+.yellow {
+    background-color: rgb(247, 247, 115);
+    height: 70px;
+}
+
+.tomato {
+    background-color: tomato;
+    height: 70px;
+}
+
+.blue {
+    background-color: rgb(101, 101, 243);
+}
+
+.flex-container {
+    display: flex;
+    height: 160px;
+    justify-content: space-around;
+}
+
+.flex-item {
+    border: 2px solid coral;
+}
