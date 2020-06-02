@@ -75,6 +75,15 @@
     width: 100%;
 }
 
+.panel-body ul{
+    text-decoration: none;
+}
+
+li>a {
+    text-decoration: none;
+    color: #333;
+}
+
 .remarks {
     font-size: x-small;
     background-color: grey;
@@ -101,5 +110,38 @@
     color: antiquewhite;
     background-color: dimgray;
     display: block;
+}
+
+.my-mb {
+    margin-bottom: 10vh;
+}
+
+.co-screen {
+    height: 20vh;
+}
+
+.co-screen:hover {
+    height: 50vh;
+    z-index: 50;
+}
+
+.descript {
+    font-weight: 700;
+    text-align: left;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-item {
+    width: 10%;
+    height: 10vh;
+    border: 2px solid coral;
+    border-radius: 40%;
+    text-align: center;
 }
 

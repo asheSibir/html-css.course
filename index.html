@@ -56,16 +56,140 @@
                         <h4 class="panel-title">
                             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#html-css"
                                href="#collapseTwo-two" aria-expanded="false" aria-controls="collapseTwo-two">
-                                Помогают ли предлагаемые вами устройства достичь в загородном доме комфорта гороского
-                                уровня?
+                                FLEX
                             </a>
                         </h4>
                     </div>
                     <div id="collapseTwo-two" class="panel-collapse collapse" role="tabpanel"
                          aria-labelledby="headingTwo-two">
                         <div class="panel-body">
-                            Нет, не может. Армированное изделие и марка бетона М-350, позволяют выдерживать значительные
-                            нагрузки, включая землетрясение до 5,5 баллов.
+                            <ul>
+                                <li><a href="#direction">Направление flex-items</a></li>
+                                <li><a href="#wrap">Перенос flex-items</a></li>
+                                <li><a href="#content">Растягивание flex-items по осям</a></li>
+                                <li><a href="#align">Размещение flex-items внутри flex</a></li>
+                                <li><a href="#order">Последовательность flex-items</a></li>
+                                <li><a href="#grow">Ширина flex-items</a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                            </ul>
+
+                            <h3 id="direction">Направление flex-items</h3>
+                            <div class="row my-mb">
+                                <div class="col-sm-3">
+                                    <p class="descript text-center">
+                                        <span class="blue-text">flex-direction:</span><br>
+                                        row/<br>
+                                        row-reverse/<br>
+                                        column/<br>
+                                        column-reverse<br>
+                                    </p>
+                                </div>
+                                <div class="col-xs-9">
+                                    <img class="co-screen" src="./img/flex/Screenshot_1.jpg" alt="flex-direction">
+                                </div>
+                            </div>
+
+                            <h3 id="wrap">Перенос flex-items</h3>
+                            <div class="row">
+                                <div class="col-xs-8 text-right">
+                                    <img class="co-screen" src="./img/flex/wrap.jpg" alt="flex-direction">
+                                </div>
+                                <div class="col-sm-4">
+                                    <p class="descript text-center">
+                                        <span class="blue-text">flex-wrap:</span><br>
+                                        nowrap - по умолчанию, игнорируют ширину, вытягиваясь в линию<br>
+                                        <br>
+                                        wrap - размещаются, как влезут<br>
+                                        <br>
+                                        wrap-reverse - складываются, но в обратную сторону
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div id="top" class="row my-mb">
+                                <h2 class="descript">flex-flow: на первом месте flex-direction, потом flex-wrap</h2>
+                            </div>
+
+                            <h3>Растягивание flex-items по осям</h3>
+                            <div id="content" class="row my-mb">
+                                <div class="col-sm-5">
+                                    <p class="descript text-center">
+                                        <span class="blue-text">justify-content:</span> (для второй оси - align-content)<br>
+                                        start, center, end<br>
+                                        <br>
+                                        space-evenly, space-around, space-between<br>
+                                        <p class="remarks">Чтобы работало, должна быть у FLEX задана ширина или высота</p>
+                                    </p>
+                                </div>
+                                <div class="col-xs-7 text-center">
+                                    <img class="co-screen" src="./img/flex/justify.jpg" alt="flex-direction">
+                                </div>
+                            </div>
+
+                            <h3 id="align">Размещение flex-items внутри flex</h3>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <p class="descript text-center">
+                                        <span class="blue-text">align-items:</span><br>
+                                        stretch - по умолчанию<br>
+                                        ПО ДОП. ОСИ: <br>
+                                        flex-start/<br>
+                                        center/<br>
+                                        flex-end<br>
+                                    </p>
+                                </div>
+                                <div class="col-xs-9">
+                                    <img class="co-screen" src="./img/flex/align.jpg" alt="flex-direction">
+                                </div>
+                            </div>
+
+                            <div class="row my-mb">
+                                <div class="col-sm-4">
+                                    <p class="descript text-center">
+                                        <span class="blue-text">align-self:</span><br>
+                                        атрибут для дочерних элементов FLEX<br>
+                                        flex-start/<br>
+                                        center/<br>
+                                        flex-end<br>
+                                    </p>
+                                </div>
+                                <div class="col-xs-8">
+                                    <img class="co-screen" src="./img/flex/item-position.jpg" alt="flex-direction">
+                                </div>
+                            </div>
+
+                            <h3 id="order">Последовательность flex-items</h3>
+                            <div class="row my-mb">
+                                <div class="col-xs-7">
+                                    <img class="co-screen" src="./img/flex/order.jpg" alt="flex-direction">
+                                </div>
+                                <div class="col-sm-5">
+                                    <p class="descript text-center">
+                                        <span class="blue-text">order:</span><br>
+                                        последовательность дочерних элементов<br>
+                                        по умолчанию - 0<br>
+                                        чтобы в начало -n<br>
+                                        чтобы в конец +n<br>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <h3 id="grow">Ширина flex-items</h3>
+                            <div class="row my-mb">
+                                <div class="col-xs-5">
+                                    <img class="co-screen" src="./img/flex/flex-grow.jpg" alt="flex-direction">
+                                </div>
+                                <div class="col-sm-12">
+                                    <p class="descript text-center">
+                                        <span class="blue-text">flex-grow:</span><br>
+                                        стандартное значение - 1<br>
+                                    </p>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
