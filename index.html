@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./src/css/main.css">
     <title>CoursesGlo</title>
 </head>
 <body>
@@ -198,17 +199,47 @@
                         <h4 class="panel-title">
                             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#html-css"
                                href="#collapseThree-two" aria-expanded="false" aria-controls="collapseThree-two">
-                                Погибают ли бактерии в холодный период при долгом простое системы?
+                                Sass
                             </a>
                         </h4>
                     </div>
-                    <div id="collapseThree-two" class="panel-collapse collapse" role="tabpanel"
+                    <div id="collapseThree-two" class="panel-collapse collapse my-collapse" role="tabpanel"
                          aria-labelledby="headingThree-two">
-                        <div class="panel-body">
-                            Да. Иногда зимний монтаж предпочтительней. Большегрузная техника по мороженому грунту не
-                            продавит и не испортит дорогу или ландшафт участка, да и грунтовая вода отходит. Весной грунт
-                            даст усадку и уплотнится, и вам останется сделать лишь ландшафтное планирование.
+                        <div class="block-item">
+                            <div class="block-item__img">
+                                <img src="./img/sass/sass.png" alt="samples of code">
+                            </div>
+                            <article class="block-item__text">
+                                <p>Для упрощения написания css используем <span class="idea-white">Sass или Less</span></p>
+                                <p>Подвид Sass - SCSS. Разница: <span class="idea-strong">{}</span>, использование <span class="idea-strong">;</span> и <span class="idea-strong">отступы</span></p>
+                                <p>Чтобы браузер мог считывать написанное, нужен компилятор. В VSC есть расширение для этого. <span class="idea-white">Live Sass Compiler</span></p>
+                                <p>В папке SRC создаем папку <span class="idea-strong">CSS</span></p>
+                                <p>В ней создаем файл <span class="idea-strong">формата scss</span> (main.scss)</p>
+                                <p>На нижней голубой панели VSC нажимаем на <span class="idea-strong">"watch Sass..."</span></p>
+                                <p>У нас <span class="idea-white">автоматически</span> появилися main.css и main.css.map</p>
+                                <p>Index.html, <span class="idea-white">как обычно</span>, подключаем к <span class="idea-strong">main.css</span>. Который теперь автоматически понимает, что пишется в файле CSCC</p>
+                            </article>
                         </div>
+
+                        <div class="block-item">
+                            <article class="block-item__text">
+                                <p><span class="idea-white">Основные принципы Sass</span></p>
+                                <p>Вложенность</p>
+                                <p>Использование <span class="idea-strong">&</span> для обозначения родительского селектора</p>
+                                <p>Использование переменных. Обозначаем <span class="idea-strong">$ name</span>. Потом, меняя значение переменной, меняем значение свойств, где она определяется свойство</p>
+                                <p>Импорт из других файлов стилей в формате scss <span class="idea-strong">@import "name.scss";</span></p>
+                                <p>Шаблоны, которые можно потом поключать к разным классам <span class="idea-strong">%name{}</span>, а подключение через <span class="idea-strong">@extends %name{}</span></p>
+                                <p>Миксины, характеристики с изменяемыми значениями. Для создания - <span class="idea-strong">@mixin name($n) {prop: $n}</span>, а подключение через <span class="idea-strong">@include name(VALUE)</span></p>
+                            </article>
+                            <div class="block-item__images">
+                                <img src="./img/sass/&.jpg" alt="& in sass">
+                                <img src="./img/sass/$.jpg" alt="$ in sass">
+                                <img src="./img/sass/mixin.jpg" alt="mixin in sass">
+                                <img src="" alt="">
+                                <img src="" alt="">
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
