@@ -1,0 +1,18 @@
+html {
+    font-size: 10px;
+    body {
+        font-family: 'museo_reg', sans-serif;
+    }
+
+    @mixin fs($n) {
+        font-size: $n;
+    }
+    @mixin mpd($t, $r, $b, $l) {
+        padding: $t $r $b $l;
+    }
+
+    section {
+        @include mpd(4rem, 0, 8rem, 0);
+    }
+
+}
